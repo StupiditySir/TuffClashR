@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TuffClashR Web Port</title>
+  <style>
+    body {
+      background: #222;
+      color: #fff;
+      font-family: monospace;
+      text-align: center;
+      margin: 0;
+    }
+    #log {
+      padding: 1em;
+      max-width: 800px;
+      margin: auto;
+      text-align: left;
+      background: #111;
+      border-radius: 10px;
+      height: 400px;
+      overflow-y: auto;
+    }
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      border: none;
+      border-radius: 8px;
+      background: #4CAF50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>TuffClashR Web Port</h1>
+  <div id="log">Initializing client...</div>
+  <button id="startBtn">Start</button>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
